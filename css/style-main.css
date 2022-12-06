@@ -1,0 +1,101 @@
+.headerLogo {
+    font-family: 'Architects Daughter', cursive;
+    padding-left: 35px;
+    font-size: 40px;
+    margin-right: 150px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.headerNav {
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.headerNav:hover {
+    opacity: 0.5;
+}
+
+.sectionLink {
+    height: 500px;
+    width: 350px;
+    border: 1px solid whitesmoke;
+    border-radius: 1%;
+    align-items: center;
+    margin: 50px;
+    transition-duration: 0.5s;
+}
+
+.sectionLink a {
+    margin-left: 85px;
+    font-size: 35px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.sectionLink:hover {
+    margin: 25px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.footerMenu {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+}
+
+.textFooter {
+    color: grey;
+    transition-duration: 1s;
+}
+
+.textFooter:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.tovar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: rgb(242,242,242); */
+    border-radius: 10px;
+}
+
+.hoodies {
+    color: grey;
+    height: 400px;
+    width: 248px;
+    margin-left: 85px;
+    padding-top: 35px;
+    display: block;
+    transition-duration: 1s;
+    margin-top: 20px; 
+}
+
+.hoodies:hover {
+    background-color: rgb(222,222,222);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hoodies h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
